@@ -2,6 +2,17 @@
 
 A premium, local-first personal financial dashboard built with Next.js 15, SQLite, and Plaid. Dollar Vault acts as your personal, automated Finance Manager. It runs entirely on your local machine, ensuring your sensitive financial data and bank credentials never leave your home network.
 
+## 📸 Previews
+
+### Dashboard Landing
+![Dashboard Preview](public/images/Dollar-Vault-Landing.jpg)
+
+### Zero-Based Budgets
+![Budgets Preview](public/images/Dollar-Vault-Budget.jpg)
+
+### Recurring Bills & Forecasting
+![Recurring Preview](public/images/Dollar-Vault-Recurring%26Forecasting.jpg)
+
 ## 🌟 Core Features
 
 - **Plaid Integration:** Securely link multiple checking accounts, credit cards, and investments via Plaid Link without storing credentials.
