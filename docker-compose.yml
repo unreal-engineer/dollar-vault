@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  dollar-vault:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dollar-vault
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - SESSION_SECRET=change_this_to_a_long_random_string_in_production_12345
+      - AUTH_DISABLED=false
+    restart: unless-stopped
